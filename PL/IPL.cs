@@ -8,5 +8,6 @@ namespace PL
 {
     interface IPL
     {
+       void Run();
     }
 }

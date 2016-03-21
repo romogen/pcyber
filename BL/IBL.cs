@@ -9,6 +9,8 @@ namespace BL
     public interface IBL
     {
         long VerifyCredentials(string UserName, string Password);
+        bool ChangeUserPassword(string ID, string Password);
+
         
     }
 }
