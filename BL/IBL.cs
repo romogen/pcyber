@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace BL
 {
-    interface IBL
+    public interface IBL
     {
+        long VerifyCredentials(string UserName, string Password);
+        
     }
 }
